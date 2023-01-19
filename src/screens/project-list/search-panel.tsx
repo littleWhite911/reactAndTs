@@ -7,7 +7,7 @@ interface SearchPanelProps {
   };
   setParam: (param: SearchPanelProps["param"]) => void;
 }
-
+  
 export interface User {
   id: string;
   name: string;
